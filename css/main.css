@@ -17,13 +17,24 @@
   font-family: 'Shift', sans-serif;
   font-weight: bold;
 }
+.jumbotron h2 {
+  color: #fff;
+  font-size: 3em;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
 
-.jumbotron p {
+}.jumbotron h3 {
+  color: #fff;
   font-size: 2em;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+.jumbotron p {
+  font-size: 1.5em;
   color: #fff;
 }
 
 .jumbotron a {
-    font-size: 1.5em;
+    font-size: 1em;
     color: deeppink;
 }

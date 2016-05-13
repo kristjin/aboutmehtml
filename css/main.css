@@ -1,3 +1,7 @@
+footer {
+  display:
+}
+
 .jumbotron {
   background-image: url('https://dl.dropboxusercontent.com/u/82592359/seattle_bg1.jpg');
   background-repeat: no-repeat;
@@ -11,6 +15,10 @@
   top:200px;
 }
 
+#portfolio {
+  position: relative;
+  top:20px;
+}
 .jumbotron h1 {
   color: #fff;
   font-size: 4em;
@@ -41,5 +49,11 @@
 .jumbotron a {
   font-size: 1em;
   color: #5cb4ff;
+  text-shadow: 2px 2px #000;
+}
+
+.jumbotron span {
+  font-size: 1.5em;
+  color: #fff;
   text-shadow: 2px 2px #000;
 }

@@ -1,8 +1,14 @@
+body {
+  background-color:#0C0C08;
+}
+
 .jumbotron {
   background-image: url('https://dl.dropboxusercontent.com/u/82592359/seattle_bg1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-color: #90B0B0;
+  background-blend-mode: multiply;
   height: 800px;
 }
 
@@ -48,8 +54,21 @@
   text-shadow: 2px 2px #000;
 }
 
-.jumbotron span {
-  font-size: 1.5em;
+.portfolio_description {
+  max-width: 65%;
+  font-size: 1.2em;
   color: #fff;
   text-shadow: 2px 2px #000;
+}
+
+.portfolio_description a {
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #5cb4ff;
+  text-shadow: 2px 2px #000;
+}
+
+#nav_com {
+  position: relative;
+  left: 20px;
 }

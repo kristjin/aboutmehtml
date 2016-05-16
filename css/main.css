@@ -71,4 +71,12 @@ body {
 #nav_com {
   position: relative;
   left: 20px;
+  width: fit-content;
 }
+
+.round-img img {
+  border: 1px solid;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+ }
